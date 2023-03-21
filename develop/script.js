@@ -62,6 +62,6 @@ function generatePassword() {
 function writePassword() {
   var newPassword = generatePassword();
   newPassword = '' ? passwordHtmlText = "No Password Created" : passwordHtmlText.value = password
-}
+} 
 
 generateBtn.addEventListener("click", writePassword);
